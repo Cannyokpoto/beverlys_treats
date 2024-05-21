@@ -584,8 +584,10 @@ footer .contact .cont span .mymail{
     .sliderr .top-bar-s{
         position: relative;
         left: 0;
-        width: 500%;
+        width: 100vw;
+        height: auto;
         animation: 8s slide forwards;
+        border: dashed;
     }
     
     .slider{
