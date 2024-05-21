@@ -13,9 +13,10 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: auto;
     font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
 }
 
 /* Header styles */
@@ -435,11 +436,12 @@ footer .contact .cont span .mymail{
         justify-content: space-between;
         align-items: center;
         padding-left: 40px;
-        padding-right: 20px;
+        padding-right: 40px;
     }
 
     header .logo img{
-        width: 15%;
+        width: 50px;
+        height: 50px;
     }
     
     header .logo #menu-btn{
@@ -457,6 +459,7 @@ footer .contact .cont span .mymail{
         flex-direction: column;
         gap: 50px;
         background-color: #fff;
+        z-index: 100;
     }
 
     header .mobile-navigation-items{
@@ -465,7 +468,6 @@ footer .contact .cont span .mymail{
         gap: 20px;
         height: 40%;
         width: 100%;
-        z-index: 100;
         position: absolute;
         top: 97px;
     }
@@ -722,7 +724,7 @@ footer .contact .cont span .mymail{
     }
     
     .our-products h2{
-      /* margin-top: 20px; */
+      margin-top: -30px;
       background-color: #8d47a1;
       color: white;
       justify-content: center;
