@@ -590,13 +590,15 @@ footer .contact .cont span .mymail{
     
     .slider{
         width: 100%;
-        height: 250px;
+        height: auto;
         overflow: hidden;
+        border: dashed red;
     }
     
     .slider .hero{
         position: relative;
         left: 0;
+        height: auto;
         width: 400%;
         animation: 17s slide infinite;
         overflow-y: hidden;
@@ -606,7 +608,7 @@ footer .contact .cont span .mymail{
     .slide{
         position: relative;
         width: 25%;
-        height: 100%;
+        height: 250px;
         float: left;
     }
 
@@ -635,24 +637,24 @@ footer .contact .cont span .mymail{
         align-items: center;
     }
     
-    h6{
+    .header-body h6{
         font-weight: 100;
         font-size: 15px;
     }
 
     h2{
-        /* font-weight: 100; */
+        font-weight: 700;
         font-size: 15px;
     }
     
-    .slide-up{
+    /* .slide-up{
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
         width: 20%;
         float: left;
-    }
+    } */
     
     .slider a{
         border-radius: 20px;
@@ -660,8 +662,8 @@ footer .contact .cont span .mymail{
         justify-content: center;
         align-items: center;
         font-size: 15px;
-        padding: 0;
-        width: 120px;
+        padding: 10px;
+        width: auto;
         height: 40px;
         border: none;
         background-color: #000;
@@ -671,8 +673,10 @@ footer .contact .cont span .mymail{
     
     
     .slide img{
+        position: absolute;
+        top: 0;
         width: 100%;
-        height: 100%;
+        height: 200px;
     }
     
     
@@ -925,11 +929,7 @@ footer .contact .cont span .mymail{
     }
 
     footer .contact .cont span .mailAddress{
-        border: dashed;
         font-size: 13px;
     }
-
-    
-
 
 }
