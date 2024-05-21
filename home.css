@@ -21,7 +21,7 @@ body {
 
 /* Header styles */
 header {
-    width: 100%;
+    width: 100vw;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -187,7 +187,7 @@ body .topbar{
 }
 
 
-@keyframes slide{
+/* @keyframes slide{
     0%{
         left: 0;
     }
@@ -230,7 +230,7 @@ body .topbar{
     1000%{
         left: 0;
     }
-}
+} */
 
 .down{
     background-color: white;
@@ -425,6 +425,27 @@ footer .contact .cont span .mymail{
 
 /* Media queries for responsiveness */
 @media (max-width: 500px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        font-family: 'Playfair Display', serif;
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        border: dashed red;
+    }
+
     header .desktop-navigation{
         display: none;
     }
@@ -575,7 +596,7 @@ footer .contact .cont span .mymail{
     .slider .hero{
         position: relative;
         left: 0;
-        width: 100vw;
+        width: 400%;
         animation: 17s slide infinite;
         overflow-y: hidden;
         overflow-x: hidden;
@@ -655,7 +676,7 @@ footer .contact .cont span .mymail{
     }
     
     
-    @keyframes slide{
+    /* @keyframes slide{
         0%{
             left: 0;
         }
@@ -698,7 +719,7 @@ footer .contact .cont span .mymail{
         1000%{
             left: 0;
         }
-    }
+    } */
     
     .down{
         background-color: white;
@@ -794,7 +815,7 @@ footer .contact .cont span .mymail{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         height: 400px;
         background-color: #434343;
         color: white;
