@@ -187,7 +187,7 @@ body .topbar{
 }
 
 
-/* @keyframes slide{
+@keyframes slide{
     0%{
         left: 0;
     }
@@ -230,7 +230,7 @@ body .topbar{
     1000%{
         left: 0;
     }
-} */
+}
 
 .down{
     background-color: white;
@@ -601,7 +601,6 @@ footer .contact .cont span .mymail{
         animation: 17s slide infinite;
         overflow-y: hidden;
         overflow-x: hidden;
-        border: dashed;
     }
     
     .slide{
@@ -677,7 +676,7 @@ footer .contact .cont span .mymail{
     }
     
     
-    /* @keyframes slide{
+    @keyframes slide{
         0%{
             left: 0;
         }
@@ -720,13 +719,13 @@ footer .contact .cont span .mymail{
         1000%{
             left: 0;
         }
-    } */
+    }
     
     .down{
         background-color: white;
         height: auto;
         width: 100vw;
-        margin-top: 50px;
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -745,6 +744,7 @@ footer .contact .cont span .mymail{
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
+        margin-top: 50px;
     }
     
     .our-products h2{
@@ -759,8 +759,8 @@ footer .contact .cont span .mymail{
     
     .down .box{
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
         display: inline-block; 
         border-radius: 8px;
         overflow: hidden;
@@ -820,13 +820,13 @@ footer .contact .cont span .mymail{
         height: auto;
         background-color: #434343;
         color: white;
-        margin-top: 100px;
+        margin-top: 50px;
         gap: 30px;
     }
     
     footer img{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         margin-top: 4%;
         border-radius: 50%;
     }
@@ -839,6 +839,11 @@ footer .contact .cont span .mymail{
         gap: 10px;
         margin-top: 0;
         padding-left: 20px;
+    }
+
+    footer .who-we-are .connect{
+        color: white;
+        font-weight: 900;
     }
     
     footer .who-we-are p a{
