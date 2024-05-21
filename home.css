@@ -578,6 +578,8 @@ footer .contact .cont span .mymail{
         width: 400%;
         animation: 17s slide infinite;
         overflow-y: hidden;
+        overflow-x: hidden;
+        border: dashed;
     }
     
     .slide{
