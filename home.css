@@ -584,10 +584,9 @@ footer .contact .cont span .mymail{
     .sliderr .top-bar-s{
         position: relative;
         left: 0;
-        width: 100vw;
+        width: 500%;
         height: auto;
         animation: 8s slide forwards;
-        border: dashed;
     }
     
     .slider{
@@ -815,7 +814,7 @@ footer .contact .cont span .mymail{
     
     footer{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 100vw;
@@ -836,10 +835,11 @@ footer .contact .cont span .mymail{
     footer .who-we-are{
         display: flex;
         flex-direction: column;
-        height: 100%;
-        width: 25%;
+        height: auto;
+        width: 100%;
         gap: 30px;
         margin-top: 50px;
+        padding-left: 20px;
     }
     
     footer .who-we-are p a{
@@ -903,11 +903,13 @@ footer .contact .cont span .mymail{
         gap: 10px;
         align-items: center;
         height: 60px;
+        width: auto;
     }
     
     footer .contact .cont span{
         display: flex;
         flex-direction: column;
+        border: dashed;
     }
     
     footer .contact .cont span .mymail{
