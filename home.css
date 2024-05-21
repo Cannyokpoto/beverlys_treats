@@ -911,13 +911,20 @@ footer .contact .cont span .mymail{
         height: auto;
         width: auto;
         display: flex;
-        flex-direction: row;
-        gap: 10px;
+        flex-direction: column;
+        gap: 5px;
     }
     
     footer .contact .cont span .mymail{
         text-transform: none;
     }
+
+    footer .contact .cont span .mailAddress{
+        border: dashed;
+        font-size: 13px;
+    }
+
+    
 
 
 }
