@@ -575,7 +575,7 @@ footer .contact .cont span .mymail{
     .slider .hero{
         position: relative;
         left: 0;
-        width: 400%;
+        width: 100vw;
         animation: 17s slide infinite;
         overflow-y: hidden;
         overflow-x: hidden;
