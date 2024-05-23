@@ -18,6 +18,9 @@ body {
     height: auto;
     font-family: 'Playfair Display', serif;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header .desktop-navigation .desktop-navigation-items li a.current{
@@ -198,6 +201,56 @@ body .topbar{
     1000%{
         left: 0;
     }
+}
+
+.payment{
+    margin-top: 50px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.payment h1{
+    font-size: 30px;
+    color: purple;
+}
+
+.payment p{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.payment table{
+    font-size: 15px;
+    height: auto;
+    width: auto;
+}
+
+.payment table td{
+    font-size: 15px;
+    padding: 10px;
+    color: purple;
+}
+
+.payment .proof{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.payment .proof .fa-solid{
+    color: purple;
+    font-size: 30px;
+}
+
+.payment .proof .fa-whatsapp{
+    color: green;
+    font-size: 40px;
 }
 
 
@@ -575,96 +628,62 @@ footer .contact .cont span .mymail{
             left: 0;
         }
     }
-    
-    .down{
-        background-color: white;
-        height: auto;
-        width: 100vw;
-        margin-top: 0;
+
+
+    .payment{
+        margin-top: 50px;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
-    .down .our-products{
-        background-color: white;
-        width: 100vw;
+    .payment h1{
+        font-size: 20px;
+        color: purple;
     }
     
-    .down .row{
-        height: auto;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 50px;
-    }
-    
-    .our-products h2{
-      margin-top: -30px;
-      background-color: #8d47a1;
-      color: white;
-      justify-content: center;
-      text-align: center;
-      font-size: 15px;
-      padding: 20px 0;
-    }
-    
-    .down .box{
-        position: relative;
-        width: 300px;
-        height: 300px;
-        display: inline-block; 
-        border-radius: 8px;
-        overflow: hidden;
-        margin: 0;
-        border: 2px solid #fff;
-    }
-    
-    img{
-        width: 100%;
-        transition: all linear 0.7s;
-    }
-    
-    img.hover-img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0;
-    }
-    
-    .box:hover img{
-        opacity: 0;
-    }
-    
-    .box:hover img.hover-img{
-        opacity: 1;
-    }
-    
-    .button-wrapper {
-        display: block;
+    .payment p{
+        font-size: 15px;
         text-align: center;
-        margin-top: -10px;
+        color: black;
     }
     
-    
-    .button-wrapper .bottom-cta {
-        border: none;
-        border-radius: 3em;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-        display: inline-block;
-        font-size: 14px;
-        padding: 10px;
+    .payment table{
+        font-size: 15px;
+        height: auto;
         width: auto;
-        background-color: #000;
-        color: #fff;
     }
-      
-    .bottom-cta:hover {
-        background-color: #777;
+    
+    .payment table td{
+        font-size: 15px;
+        padding: 10px;
+        color: purple;
     }
+    
+    .payment .proof{
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .payment .proof .fa-solid{
+        color: purple;
+        font-size: 25px;
+    }
+    
+    .payment .proof .fa-whatsapp{
+        color: green;
+        font-size: 30px;
+    }
+    
+    
+    
+
     
     footer{
         display: flex;

@@ -288,7 +288,6 @@ body .topbar{
 .products .card .box .btn{
     font-size: 13px;
     color: #8d47a1;
-    padding: 5px;
     width: 70px;
     height: 30px;
     border: 1px solid #8d47a1;
@@ -300,6 +299,22 @@ body .topbar{
 
 .products .card .box .btn:hover{
     cursor: pointer;
+    background-color: #8d47a1;
+    color: #fafafa;
+}
+
+.products .card .box a{
+    color: #8d47a1;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .card .box a:hover{
     background-color: #8d47a1;
     color: #fafafa;
 }
@@ -554,7 +569,7 @@ header .mobile-navigation{
         top: 0;
         left: 0;
         z-index: -1;
-        opacity: .5;
+        opacity: .7;
     }
     
     .content button{
