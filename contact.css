@@ -192,7 +192,7 @@ body .topbar{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 70px;
     background-color: white;
 }
 
@@ -203,7 +203,7 @@ body .topbar{
 
 .contact-form hr{
     height: 2px;
-    width: 100%;
+    width: 100vw;
     background-color: purple;
 }
 
